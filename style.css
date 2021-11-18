@@ -1,0 +1,248 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #f3f5f7;
+}
+.w{
+    width:1200px;
+    margin:0 auto;
+}
+li{
+    list-style:none;
+}
+.logo{
+    float:left;
+    width:195px;
+    height: 42px;
+    background-image: url(images/logo.png);
+}
+.header{
+    margin:30px 51.5px;
+    box-sizing:border-box;
+    overflow:hidden;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+.nav{
+    float:left;
+    /* background-color:pink; */
+}
+.nav ul li{
+    float:left;
+    margin-left:60px;
+    height: 42px;
+    line-height:42px;
+    list-style:none;
+}
+nav ul li a{
+    float:left;
+    height: 42px;
+    padding:0 10px;
+    font-size:18px;
+    color:#050505;
+}
+.search{
+    float:left;
+    margin-left:70px;
+    width: 427px;
+    height: 42px;
+    /* background-color:pink; */
+}
+.search input{
+    float:left;
+    padding-left:15px;
+    width:360px;
+    height: 40px;
+    border:1px solid rgb(63, 63, 233);
+}
+.search button{
+    float: left;
+    width: 50px;
+    height: 42px;
+    background-image: url(images/button.png);
+    border: 0;
+}
+.user{
+    float:right;
+    margin-right:30px;
+    width:70px;
+    height: 42px;
+    font-size:14px;
+    color:#050505;
+    background-color:skyblue;
+}
+.user div{
+    float:left;
+    width: 30px;
+    height: 30px;
+    margin:10px 0;
+    background-image: url(images/user.png);
+}
+.user span{
+    display:block;
+    height: 42px;
+ 
+}
+.main {
+    height: 421px;
+    background-image: url(images/bgi.png);
+}
+.main .left{
+    float:left;
+    width: 190px;
+    height: 360px;
+    background-color:rgb(0,0,0,.2);
+}
+.main .left li{
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+}
+.main .left li a{
+    font-size: 14px;
+    color:seashell;
+}
+.main .left li span{
+    float:right;
+}
+/* right课程表 */
+.main .right{
+    float:right;
+    margin-top:40px;
+    box-sizing:border-box;
+    width: 230px;
+    background-color: #fff;
+}
+.main .right h3{
+    height: 48px;
+    line-height:48px;
+    text-align:center;
+    color:seashell;
+    font-size:18px;
+    background-color: skyblue;
+}
+.main .right ul{
+    padding:14px 0;
+    border-bottom:2px solid #ccc;
+}
+.main .right li{
+    padding: 0 0 0 30px ;
+    font-size:16px;
+    color:#4e4e4e;
+    font-weight:400px;
+}
+.main .right h4{
+    padding: 0 0 0 30px ;
+    font-size:12px;
+    color:#a5a5a5;
+    font-weight:400px;
+}
+.main .right .class{
+    display: block;
+    margin:0 auto;
+    width:188px;
+    height: 38px;
+    border: 1px solid #00a4ff;
+    text-align: center;
+    line-height: 38px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.naver .w{
+    margin-top:15px;
+    height: 60px;
+    background-color: pink;
+    box-shadow:0px 5px 3px 3px;
+}
+.naver h3{
+    float:left;
+    height: 60px;
+    line-height:60px;
+    font-size:16px;
+    color:#00a4ff;
+}
+.naver .nice li{
+    float:left;
+    line-height:60px;
+}
+.naver .nice li a{
+    padding: 0 30px;
+    font-size: 16px;
+    color: #050505;
+    border-left: 1px solid #ccc;
+}
+.naver .nice h4{
+    float:right;
+    height: 60px;
+    line-height:60px;
+    font-size:14px;
+    color:#00a4ff;
+    margin-right:40px;
+}
+.naver .nice h4 a{
+    color:#00a4ff;
+}
+/* content开始 */
+.content .cat{
+    margin-top:60px;
+    height:45px;
+    /* background-color: pink; */
+}
+.content .cat p{
+    float:left;
+    font-size:20px;
+    color:#494949;
+}
+.content .cat h4{
+    float:right;
+    margin-right:30px;
+}
+.content .cat h4 a{
+    font-size:12px;
+    color:#a5a5a5;
+}
+.content .big ul{
+    float:left;
+    margin-right:15px;
+    background-color: #fff;
+    width:224;
+    height: 270px;
+    margin-bottom:10px;
+    box-sizing:border-box;
+}
+.content .big ul .jpg{
+    width:100%;
+    height:155px;
+    background-image: url(images/dog.png);
+}
+.content .big ul p{
+    margin: 20px 20px 20px 25px;
+    font-size: 14px;
+    color: #050505;
+    font-weight: 400;
+}
+.content .big ul h3{
+    margin: 0 20px 0 25px;
+    padding-left:15px;
+    font-size: 12px;
+    color: #999;
+}
+.content .big ul span{
+    color: #ff7c2d;
+    margin-right:15px;
+}
+.content .big ul:nth-child(5){
+    margin-right:0px;
+}
+.content .big ul:nth-child(n+10){
+    margin-right:0px;
+}
+
+
+
